@@ -1,0 +1,13 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+}
+.nav-title{
+color: #FD6E0A;
+font-size: 45px;
+font-weight: 800;
+
+   
+}
