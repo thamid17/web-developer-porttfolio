@@ -19,14 +19,14 @@ body {
 nav>ul {
     display: flex;
     align-items: center;
-  
+
 }
 
 ul>li {
     list-style: none;
     margin-right: 50px;
-    
-    
+
+
 }
 
 nav a {
@@ -39,8 +39,12 @@ nav {
     align-items: center;
     margin: 0px 200px;
 }
-.header{
-    background: #FFF8F3;
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .nav-title {
@@ -48,7 +52,58 @@ nav {
     font-size: 45px;
     font-weight: 800;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hi {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.name {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.para {
+    width: 580px;
+    margin-bottom: 30px;
+}
+
+.banner .profile-pic {
+    width: 580px;
+    margin-top: 0;
+
+}
+
+.about {
+    margin: 130px 0;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+}
+
+.section-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-dec {
+    color: var(#757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
