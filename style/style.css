@@ -19,14 +19,11 @@ body {
 nav>ul {
     display: flex;
     align-items: center;
-
 }
 
 ul>li {
     list-style: none;
     margin-right: 50px;
-
-
 }
 
 nav a {
@@ -106,4 +103,12 @@ nav {
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
+}
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
 }
