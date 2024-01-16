@@ -173,10 +173,10 @@ main {
 }
 
 .resume-about {
-    color: #757575;
+    color: #807878;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 20px;
+    line-height: 28px; /* 175% */
 }
 
 .resume-container hr {
